@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LinearRegression.cpp" />
     <ClCompile Include="ML-Algos-from-Scratch-in-Cpp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinearRegression.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

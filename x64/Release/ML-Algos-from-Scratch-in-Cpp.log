@@ -1,7 +1,7 @@
-﻿  ML-Algos-from-Scratch-in-Cpp.cpp
-F:\ML-Algos-from-Scratch-in-Cpp\ML-Algos-from-Scratch-in-Cpp.cpp(8,17): warning C4326: return type of 'main' should be 'int' instead of 'void'
+﻿  LinearRegression.cpp
+  main.cpp
   Generating code
-  1 of 10 functions (10.0%) were compiled, the rest were copied from previous compilation.
+  30 of 31 functions (96.8%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code

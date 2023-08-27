@@ -9,10 +9,7 @@ using namespace std;
 
 int main(void) {
 
-    LinearRegression model = LinearRegression();
 
-    cout << "Slope: " << model.get_slope() << endl;
-    cout << "Intercept: " << model.get_intercept() << endl;
 
     return(0);
 }

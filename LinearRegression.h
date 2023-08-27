@@ -17,8 +17,8 @@ private:
 	/// </summary>
 	/// <param name="x"> The value for which, y needs to be calculated </param>
 	/// <returns> The calculated y. </returns>
-	double fun(double x) {
-		return ((this->m * x) + this->c);
+	double fun(double X) {
+		return ((this->get_slope() * X) + this->get_intercept());
 	}
 
 	/// <summary>
@@ -111,15 +111,16 @@ public:
 
 		// Invalid input check
 		if (X.size() != y.size() || X.empty()) {
-			std::cerr << "Invalid input data." << std::endl;
-			return;
+			throw "Invalid input data!";
 		}
 
 		// Variables
 		double sum_X = 0.0, sum_y = 0.0;
 		double sum_X_squared = 0.0, sum_Xy = 0.0;
 		double mean_X = 0.0, mean_y = 0.0;
-		int n = X.size();
+		int n;
+		
+		n = X.size();
 
 		for (int i = 0; i < n; ++i) {
 			sum_X += X[i];
